@@ -1,0 +1,17 @@
+node_modules/
+dist/
+*.log
+*.tsbuildinfo
+
+# Local media and notes not used by the deployed site
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*.txt
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
