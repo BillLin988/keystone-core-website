@@ -88,13 +88,15 @@ function HeroSectionThree() {
         <div className="mt-5 border-t border-zinc-100/10 pt-4">
           <p className="mb-1 text-sm font-medium uppercase tracking-wider text-zinc-50">Legal Notice</p>
           <p className="text-xs leading-6 text-white/72 lg:text-[13px]">{legalNotice}</p>
-          <p className="mt-3 text-sm leading-6 text-zinc-300/64">
-            Corporate Contact:{" "}
-            <a href="mailto:info@keystone-core.com" className="hover:text-zinc-50">
-              info@keystone-core.com
-            </a>
-          </p>
-          <p className="mt-1 text-xs leading-6 text-zinc-300/64">&copy; 2026 Keystone Core LLC. All rights reserved.</p>
+          <div className="mt-3 grid gap-2 text-xs leading-6 text-zinc-300/64 sm:grid-cols-[1fr_auto] sm:items-center">
+            <p className="justify-self-start">
+              Corporate Contact:{" "}
+              <a href="mailto:info@keystone-core.com" className="hover:text-zinc-50">
+                info@keystone-core.com
+              </a>
+            </p>
+            <p className="justify-self-start sm:justify-self-end">&copy; 2026 Keystone Core LLC. All rights reserved.</p>
+          </div>
         </div>
       </div>
     </section>
